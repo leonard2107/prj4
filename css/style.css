@@ -1,0 +1,48 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body {
+    background-color: darkgray;
+}
+.container {
+    margin-top: 60px;
+   width: 600px;
+   height: 800px;
+    background-image: url(../photo_2022-06-22_12-17-40.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.header {  
+    color: rgb(136, 136, 243);
+    padding-top: 70px;
+}
+.box1 {
+margin-top: 160px;
+font-size: 30px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: cornsilk;
+
+}
+.box2 {
+    
+   font-size: 25px;
+   color: cornsilk;
+   font-family: sans-serif ;
+   position: absolute;
+   bottom: -100%;
+   transition: .5s;
+   opacity: 0;
+   padding-left: 80px;
+   padding-bottom: 100px;
+}
+.container:hover .box2 {
+    bottom: 20px;
+    opacity: 1;
+}
